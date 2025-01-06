@@ -1,0 +1,56 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.character-form {
+  margin: 20px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.character-form input,
+.character-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.character-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.character-form button:hover {
+  background-color: #0056b3;
+}
+
+.character-list {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.character-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.character-list li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.character-list li strong {
+  font-size: 1.2em;
+}
