@@ -4,7 +4,8 @@ import CharacterList from "./components/CharacterList";
 import axios from "axios";
 import "./index.css";
 
-const apiurl = "http://localhost:3002";
+// const apiurl = "http://localhost:3002";
+const apiurl = "https://movies-data-app-api.onrender.com";
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
